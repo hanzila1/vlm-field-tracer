@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# API keys — NEVER commit these
+.env
+*.env
+secrets.txt
+
+# Outputs — kept local, not tracked
+outputs/
+*_debug_pngs/
+*.geojson
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# Input data — typically large GeoTIFFs
+*.tif
+*.tiff
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
