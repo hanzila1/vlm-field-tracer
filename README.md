@@ -211,6 +211,47 @@ Input GeoTIFF
 
 ---
 
+## Results
+
+Real pipeline output on a Sentinel-2 tile over an agricultural region.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/results/01_input_satellite.jpg" width="300"/><br/>
+      <b>① Input Satellite Imagery</b><br/>
+      <sub>Sentinel-2 RGB GeoTIFF</sub>
+    </td>
+    <td align="center">
+      <img src="docs/results/02_vlm_sketch_output.jpg" width="300"/><br/>
+      <b>② VLM Sketch Output</b><br/>
+      <sub>Gemini black-on-white boundary sketch</sub>
+    </td>
+    <td align="center">
+      <img src="docs/results/03_skeleton_bridged.jpg" width="300"/><br/>
+      <b>③ Skeleton & Gap Bridging</b><br/>
+      <sub>1-px centreline after gap reconnection</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/results/04_lines_final.jpg" width="300"/><br/>
+      <b>④ Final Extracted Lines</b><br/>
+      <sub>Georeferenced LineStrings after merge & snap</sub>
+    </td>
+    <td align="center">
+      <img src="docs/results/05_final_overlay.jpg" width="300"/><br/>
+      <b>⑤ Final GeoJSON Overlay</b><br/>
+      <sub>Vector boundaries + urban centroids on imagery</sub>
+    </td>
+    <td align="center">
+      <img src="docs/results/06_other_output.jpg" width="300"/><br/>
+      <b>⑥ Other output</b><br/>
+      <sub>Output for Sentinel 2</sub>
+    </td>
+  </tr>
+</table>
+
 ## Relation to Fields of The World (FTW)
 
 Inspired by the [FTW initiative](https://fieldsofthe.world) by Taylor Geospatial / ASU Kerner Lab / Microsoft AI for Good.
