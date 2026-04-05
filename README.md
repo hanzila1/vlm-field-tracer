@@ -3,6 +3,8 @@
 **VLM Sketch Extraction for Agricultural Field Boundaries**  
 *A zero-shot pipeline that uses a Vision Language Model to draw and extract field boundary lines from satellite imagery*
 
+![VLM Sketch Extraction Pipeline](docs/diagrams/pipeline_architecture.jpg)
+
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-6.0.0-orange.svg)]()
